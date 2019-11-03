@@ -1,0 +1,7 @@
+# Use the daytime check instead of light damage
+# to despawn ghosts? (runs every 15secs)
+#
+# Usare il controllo del giorno invece del
+# ferimento da luce per fare scomparire i fantasmi?
+# (eseguito ogni 15sec)
+ghost_daytime_check (Daytime Check) bool false

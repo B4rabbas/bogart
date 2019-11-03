@@ -1,0 +1,6 @@
+default
+bones
+mobs
+mobs_humans?
+mobs_others?
+moreores?
