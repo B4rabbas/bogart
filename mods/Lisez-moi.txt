@@ -1,0 +1,19 @@
+Pre requis nécessite grub customizer, si vous ne l'avez pas tapez dans un terminal :
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer -y ; sudo apt update ; sudo apt-get install grub-customizer -y
+
+
+Glissez Install.sh dans un terminal etentrez votre mot de passe lorsque demandé.
+
+Une fois le message comme quoi c'est complété apparaît passez à la suite :
+
+
+Ouvrez Grub Boot Options
+-  Créez une nouvelle configuration (icone blanche avec un + vert)
+-  Mettez Prime OS comme nom (ou autre au choix)
+-  Sur le menu "Type", choisissez "Autre", et dans "Séquence d'amorçage" copiez ce qui suit:
+
+# pour "video=HDMI-1-1 video=1920x1080" est à utiliser si vous avez 2 écrans, "HDMI-1-1 sera à modifier par le nom de votre moniteur (tapez xrandr dans un terminal pour les afficher)
+
+
+
+c
